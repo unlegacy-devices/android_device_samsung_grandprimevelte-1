@@ -28,7 +28,7 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 
 BOARD_CUSTOM_MKBOOTIMG := $(LOCAL_PATH)/tools/marvell-mkbootimg
 BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/custom_mkbootimg.mk
-BOARD_MKBOOTIMG_ARGS := --dt $(LOCAL_PATH)/prebuilt/dt.img
+BOARD_MKBOOTIMG_ARGS := --dt $(LOCAL_PATH)/prebuilt/dtb
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/zImage
 
 #twrp
