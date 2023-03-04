@@ -1,3 +1,11 @@
 #
-# system.prop for j1acelte
+# system.prop for grandprimevelte
 #
+
+ro.product.model=SM-G531F
+
+# System property for storage_preload
+persist.sys.storage_preload=1
+
+# set lcd density
+ro.sf.lcd_density=240
